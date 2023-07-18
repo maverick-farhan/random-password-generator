@@ -22,8 +22,6 @@ password += cap[Math.floor(Math.random()*cap.length)];
 while(length>password.length){
     password += allChars[Math.floor(Math.random()*allChars.length)];
 }
-console.log(password);
-console.log(password.length);
 return password;
 }
 document.querySelector('span#copied').style.display="block";
